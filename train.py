@@ -219,7 +219,7 @@ def evaluate(model: nn.Module, eval_data: Tensor) -> float:
 # ============================== #
 
 best_val_loss = float('inf')
-epochs = 100
+epochs = 10
 best_model = None
 
 for epoch in range(1, epochs + 1):
